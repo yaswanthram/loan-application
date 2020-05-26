@@ -1,0 +1,121 @@
+*{
+
+    box-sizing: border-box;
+
+  }
+
+  
+
+  body{
+
+    margin: 0px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    
+
+  }
+
+  
+
+  .container{
+
+       justify-content: center;
+
+       height: 100%;
+
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+     }
+
+     .h1{
+
+         text-align: center;
+
+     }
+
+     .from1{
+
+         font-size: 20px;
+
+
+
+     }
+
+     .btn-group{
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+        margin-top: 20px;
+
+        margin-bottom: 20px;
+
+        padding: 20px;
+
+        
+
+     }
+
+     .btn-accept,.btn-reject,.btn-back{
+
+        font-size: 15px;
+
+    padding: 8px 12px;
+
+    border: none;
+
+        box-shadow:inset 2px 2px 3px rgba(148, 214, 192, 0.6),inset -2px -2px 3px rgba(0,0,0,0.6); 
+
+     }
+
+        .btn-accept:hover{
+
+            cursor: pointer;
+
+    background-color: green;
+
+        }
+
+        .btn-reject:hover{
+
+            cursor: pointer;
+
+    background-color: red;
+
+        }
+
+        .btn-back:hover{
+
+            cursor: pointer;
+
+        }
+
+        
+
+     .label{
+
+        margin: 10px;
+
+        font-size: 10px;
+
+     }
+
+        .from1>input{
+
+            width: 80%;
+
+            margin: 10px;
+
+            background-color:#d0e0fa;
+
+            padding: 10px;
+
+          }

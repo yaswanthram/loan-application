@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    margin: 0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+ 
+  
+  h1{
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top:10px;
+    font-size: 45px;
+    flex: 1;
+  
+  }
+  
+  .container{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    width : 35%;
+    border:1px solid black;
+    margin: 0.5% auto;
+  }
+  form{
+    width:100%;
+}
+  .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .btn-success{
+    background-color: #4CAF50;
+    font-size: 15px;
+    padding: 8px 12px;
+    border: none;
+    box-shadow:inset 2px 2px 3px rgba(255,255,255,0.6),inset -2px -2px 3px rgba(0,0,0,0.6); 
+  }
+  
+  .btn-success:hover {
+    cursor: pointer;
+    background-color: green;
+  }
+  
+  .signup_btn{
+    margin-bottom: 0px;
+
+  }
+  
+  .bottom{
+    background-color:#D0D0D0;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    width : 100%;
+
+  }
+  
+  .labels{
+    font-size: 20px;
+    margin: 10px 10px 20px 20px;
+       
+  }
+  
+  .select{
+    width: 95%;
+    margin: 10px 10px 20px 12px;
+    background-color:#e5e5e5;
+    padding: 12px;
+  }
+  
+  .cancelbtn{
+    padding:7px 10px ;
+    background-color:#56a5ec;
+    margin-bottom:5px;
+    box-shadow:inset 2px 2px 3px rgba(255,255,255,0.6),inset -2px -2px 3px rgba(0,0,0,0.6); 
+    border: none;
+  }
+  
+  .cancelbtn a{
+    color: white;
+    text-decoration: none;;
+  }
+    
+  .cancelbtn:hover{
+    cursor: pointer;
+    background-color: darkcyan;
+  }
+    
+  

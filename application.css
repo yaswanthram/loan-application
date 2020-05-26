@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    margin: 0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+ 
+  
+  h1{
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top:10px;
+    font-size: 45px;
+    flex: 1;
+  
+  }
+  
+  .details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width : 55%;
+    margin: 5% auto;
+    border:1px solid black;
+  }
+
+  form{
+    width:100%;
+}
+  .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .btn_submit{
+    background-color: #4CAF50;
+    font-size: 15px;
+    padding: 8px 12px;
+    border: none;
+    box-shadow:inset 2px 2px 3px rgba(255,255,255,0.6),inset -2px -2px 3px rgba(0,0,0,0.6); 
+  }
+  
+  .btn_submit:hover {
+    cursor: pointer;
+    background-color: green;
+  }
+ 
+  .labels{
+    font-size: 20px;
+    margin: 10px 10px 20px 20px;
+       
+  }
+  
+  .select{
+    width: 95%;
+    margin: 10px 10px 20px 12px;
+    padding: 12px;
+  }
+
+  .select1{
+    background-color:#e5e5e5;
+  }
+
+  .apply_again{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+  }
+  
+  .logout{
+    background-color: #4CAF50;
+   font-size: 15px;
+   padding: 8px 12px;
+   border: none;
+   box-shadow:inset 2px 2px 3px rgba(255,255,255,0.6),inset -2px -2px 3px rgba(0,0,0,0.6);
+   width:100%;
+   padding:20px;
+   margin-bottom: 0px;
+}
+
+.logout:hover
+{
+  cursor: pointer;
+  background-color: green;
+}

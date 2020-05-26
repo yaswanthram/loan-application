@@ -1,0 +1,17 @@
+.container>p{
+    background-color:#e5e5e5;
+    margin:0px;
+    text-align:center;
+    padding:30px;
+    font-size:30px;
+}
+button{
+     background-color: #4CAF50;
+    font-size: 15px;
+    padding: 8px 12px;
+    border: none;
+    box-shadow:inset 2px 2px 3px rgba(255,255,255,0.6),inset -2px -2px 3px rgba(0,0,0,0.6);
+    width:100%;
+    padding:20px;
+    cursor: pointer;
+}
